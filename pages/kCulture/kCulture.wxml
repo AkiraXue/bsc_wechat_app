@@ -1,0 +1,57 @@
+<!--pages/kCulture/kCulture.wxml-->
+<view class="myInfoBox">
+	<goBack imgsrc="{{bgImgSrc}}"></goBack>
+
+	<view class="container">
+		<view class="title">
+			<view class="f-20">Profile</view>
+			<view class="">公司简介 - 企业文化</view>
+		</view>
+	</view>
+	<view class="infoBox">
+    <view class="toggleTextBox">
+      <view class="toggleTitle" data-index="0" bindtap="onToggle">
+        <view class="title">你眼中的波士顿科学是一家什么样的公司？</view>
+        <image class="toggleArrow" mode="heightFix" src="{{toggleList[0] == 0 ? toggleArrow : toggleUpArrow}}"></image>
+      </view>
+      <view class="toggleCon {{toggleList[0] == 0 ? 'hidden' : ''}}">
+        <view class="textCon con">在这个问题之下，约有一半的答案都提到“创新”。英雄所见略同，“创新”作为深深根植于波士顿科学血液中的基因，身处其中的每一个人都可以感受到。同时，在波科人眼里，“专业性强”、“人性化”、“充满活力”、“务实”、“人性化”、“开放”也都是波士顿科学身上最明显的标签。</view>
+        <image class="imgCon con" mode="widthFix" src="../../img/knowledge/k_culture_1.png"></image>
+			</view>
+    </view>
+
+		<view class="toggleTextBox">
+      <view class="toggleTitle" data-index="1" bindtap="onToggle">
+        <view class="title">在波士顿科学工作究竟有什么感受？</view>
+        <image class="toggleArrow" mode="heightFix" src="{{toggleList[1] == 0 ? toggleArrow : toggleUpArrow}}"></image>
+      </view>
+      <view class="toggleCon {{toggleList[1] == 0 ? 'hidden' : ''}}">
+        <view class="textCon con">“创新”、“专业”、“开心”、“归属感”、“温暖”……我们收到了很多鼓励和认可，这也让我们更加自信和坚定。</view>
+        <image class="imgCon con" mode="widthFix" src="../../img/knowledge/k_culture_2.png"></image>
+			</view>
+    </view>
+		
+		<view class="toggleTextBox">
+      <view class="toggleTitle" data-index="2" bindtap="onToggle">
+        <view class="title">波士顿科学有哪些深受员工喜爱的福利和活动？</view>
+        <image class="toggleArrow" mode="heightFix" src="{{toggleList[2] == 0 ? toggleArrow : toggleUpArrow}}"></image>
+      </view>
+      <view class="toggleCon {{toggleList[2] == 0 ? 'hidden' : ''}}">
+        <view class="textCon">五花八门的各种津贴、保险和假期、节日喜丧慰问礼、带薪家属护理假、弹性工作带薪陪娃……该有的都有，波科人自豪地表示习惯就好。</view>
+        <image class="imgCon con" mode="widthFix" src="../../img/knowledge/k_culture_3.png"></image>
+			</view>
+    </view>
+
+    <view class="toggleTextBox">
+      <view class="toggleTitle" data-index="3" bindtap="onToggle">
+        <view class="title">我们的使命和价值观</view>
+        <image class="toggleArrow" mode="heightFix" src="{{toggleList[3] == 0 ? toggleArrow : toggleUpArrow}}"></image>
+      </view>
+      <view class="toggleCon {{toggleList[3] == 0 ? 'hidden' : ''}}">
+        <view class="textCon">我们致力于通过创新的医疗解决方案，改善人们的生活，提高全世界患者的健康品质。我们不仅关注病患的生活质量，也关心员工的身心健康。关爱之心，有效创新，卓越之志，全球协作，致赢精神和多元融汇是我们的六大核心价值观。</view>
+        <image class="imgCon con" mode="widthFix" src="../../img/knowledge/k_culture_4.png"></image>
+			</view>
+    </view>
+	</view>
+</view>
+

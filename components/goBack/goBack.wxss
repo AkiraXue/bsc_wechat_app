@@ -1,0 +1,10 @@
+/* components/goBack/goBack.wxss */
+.bgImg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.returnBtn {
+  position: fixed;
+}

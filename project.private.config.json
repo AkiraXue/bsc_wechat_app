@@ -1,0 +1,36 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/my/my",
+          "pathName": "pages/my/my",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/topUp/topUp",
+          "pathName": "pages/topUp/topUp",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/kCulture/kCulture",
+          "pathName": "pages/kCulture/kCulture",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

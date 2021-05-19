@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "知识库",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "goBack": "../../components/goBack/goBack"
+  }
+}

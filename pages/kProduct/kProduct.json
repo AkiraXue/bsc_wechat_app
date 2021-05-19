@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "产品简介",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "goBack": "../../components/goBack/goBack"
+  }
+}

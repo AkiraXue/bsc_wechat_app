@@ -1,0 +1,41 @@
+<!--pages/knowledge/knowledge.wxml-->
+<view class="knowledgeBox myInfoBox">
+  <goBack></goBack>
+
+  <view class="searchBox">
+    <view class="searchCon">
+      <image class="searchIcon" mode="heightFix" src="../../img/Search@2x.png"></image>
+      <input class="searchInput" placeholder="search"/>
+    </view>
+  </view>
+
+  <view class="container swiperContainer">
+    <view class="title">
+      <view class="f-20">Profile</view>
+      <view>公司简介</view>
+    </view>
+    <view class="swiperBox">
+      <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height:{{imgheights[current]}}rpx;" bindchange="bindchange"  catchtap="toPage">
+        <block wx:for="{{swiperList}}" wx:key="*this">
+          <swiper-item>
+            <view class="swiper-item">
+              <image class="swiperImg" mode="widthFix" src="{{item.img}}" data-id='{{index}}' bindload="imageLoad" data-link="{{item.link}}"></image>
+              <view class="swiperTitle">{{item.title}}</view>
+            </view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+  <view class="container menuBox">
+    <view class="title">
+      <view class="f-20">Knowledge Base</view>
+      <view class="">知识库</view>
+    </view>
+    <view class="menuCon">
+      <image class="menuItem" mode="widthFix" src="../../img/knowledge/1@2x.png" bindtap="toLinkPage"></image>
+      <image class="menuItem" mode="widthFix" src="../../img/knowledge/2@2x.png"></image>
+    </view>
+  </view>
+</view>

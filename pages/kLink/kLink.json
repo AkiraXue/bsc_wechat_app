@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "部门联络人",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "goBack": "../../components/goBack/goBack"
+  }
+}

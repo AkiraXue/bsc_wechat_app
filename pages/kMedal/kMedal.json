@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "荣誉奖项",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "goBack": "../../components/goBack/goBack"
+  }
+}

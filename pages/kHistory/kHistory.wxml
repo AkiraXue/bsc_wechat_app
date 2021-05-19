@@ -1,0 +1,51 @@
+<!--pages/kHistory/kHistory.wxml-->
+<view class="myInfoBox">
+	<goBack imgsrc="{{bgImgSrc}}"></goBack>
+
+	<view class="container">
+		<view class="title">
+			<view class="f-20">Profile</view>
+			<view class="">公司简介 - 发展历程</view>
+		</view>
+	</view>
+	<view class="infoBox">
+    <view class="toggleTextBox">
+      <view class="toggleTitle" data-index="0" bindtap="onToggle">
+        <view class="title">波士顿科学的40年奋进之路</view>
+        <image class="toggleArrow" mode="heightFix" src="{{toggleList[0] == 0 ? toggleArrow : toggleUpArrow}}"></image>
+      </view>
+      <view class="toggleCon {{toggleList[0] == 0 ? 'hidden' : ''}}">
+				<view class="textCon con">1979年，John Abele和Peter Nicholas在美国马萨诸塞州成立波士顿科学公司，专注于微创医疗器械的研发，并在欧洲和日本等海外市场扩展业务。2014年，波士顿科学正式成立大中华区，一路高歌猛进，在大中华区实现了业务的快速发展。</view>
+			</view>
+    </view>
+		<view class="imgBox">
+			<image class="infoImg" mode="widthFix" src="../../img/knowledge/k_history_1.png"></image>
+		</view>
+
+		<view class="toggleTextBox">
+      <view class="toggleTitle" data-index="1" bindtap="onToggle">
+        <view class="title">北京T3创库</view>
+        <image class="toggleArrow" mode="heightFix" src="{{toggleList[1] == 0 ? toggleArrow : toggleUpArrow}}"></image>
+      </view>
+      <view class="toggleCon {{toggleList[1] == 0 ? 'hidden' : ''}}">
+				<view class="textCon con">T3创库是清华技术转移研究院与波士顿科学共同创立的开放式创新平台，坐落于中关村东升国际创业园，该园为北京市政府牵头所成立的全球健康产业创新孵化的重点基地。</view>
+			</view>
+    </view>
+		<view class="imgBox">
+			<image class="infoImg" mode="widthFix" src="../../img/knowledge/k_history_2.png"></image>
+		</view>
+		
+		<view class="toggleTextBox">
+      <view class="toggleTitle" data-index="2" bindtap="onToggle">
+        <view class="title">创新培训中心</view>
+        <image class="toggleArrow" mode="heightFix" src="{{toggleList[2] == 0 ? toggleArrow : toggleUpArrow}}"></image>
+      </view>
+      <view class="toggleCon {{toggleList[2] == 0 ? 'hidden' : ''}}">
+				<view class="textCon con">波士顿科学在全球共建立了14所创新培训学院。中国创新培训学院，依托国际资源，旨在通过先进的培训设施，结合EDUCARE多样化的专业培训课程，为中国广大医务工作者提供教育与培训增值服务。每年在学院举办的专业培训超过200场。</view>
+			</view>
+    </view>
+		<view class="imgBox">
+			<image class="infoImg" mode="widthFix" src="../../img/knowledge/k_history_3.png"></image>
+		</view>
+	</view>
+</view>

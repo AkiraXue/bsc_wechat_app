@@ -1,0 +1,5 @@
+<!--components/goBack/goBack.wxml-->
+<view class="bgBox" style="min-height: {{navbarBtn.height + 32}}px;">
+  <image class='bgImg' mode="widthFix" src="{{imgsrc}}"></image>
+  <image class="returnBtn"  style="height:{{navbarBtn.height}}px; top:{{navbarBtn.top}}px; left:{{navbarBtn.right}}px;" mode="heightFix" src="../../img/my/return.png" bindtap="_goBack"></image>
+</view>

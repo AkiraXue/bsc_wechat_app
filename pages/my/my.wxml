@@ -1,0 +1,32 @@
+<!--pages/my/my.wxml-->
+<view class="myBox">
+  <view class="bgBox">
+    <image class='bgImg' mode="widthFix" src="../../img/my/my_bg.png"></image>
+  </view>
+  <view class="myContainer">
+    <view class="myInfoBox">
+      <view class="myInfo">
+        <view class="portraitBox">
+          <image class="portrait" mode="widthFix" src="../../img/my/portrait.png"></image>
+          <view class="baseBox">
+            <view class="baseName">LeafYe</view>
+            <view class="baseDate">27 Feb 2021</view>
+          </view>
+        </view>
+        <view class="pointsBox">
+          <image class="icon" mode="heightFix" src="../../img/my/price-up@2x.png"></image>
+          <view class="points">200</view>
+        </view>
+      </view>
+      <view class="giftsBox">
+        <view class="title">Gifts</view>
+        <view class="gifts">
+          <image class="giftImg" mode="widthFix" src="../../img/my/ico_1@2x.png" data-type="1" bindtap="toPage"></image>
+          <image class="giftImg" mode="widthFix" src="../../img/my/ico_2@2x.png" data-type="2" bindtap="toPage"></image>
+          <image class="giftImg" mode="widthFix" src="../../img/my/ico_3@2x.png" data-type="3" bindtap="toPage"></image>
+          <image class="giftImg" mode="widthFix" src="../../img/my/ico_4@2x.png" data-type="4" bindtap="toPage"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,2 @@
+/* pages/myHealth/myHealth.wxss */
+@import "../../common/base.wxss";

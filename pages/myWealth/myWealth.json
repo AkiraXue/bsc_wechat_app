@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的财富",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "goBack": "../../components/goBack/goBack"
+  }
+}

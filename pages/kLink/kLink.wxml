@@ -1,0 +1,16 @@
+<!--pages/kLink/kLink.wxml-->
+<view class="myInfoBox">
+	<goBack imgsrc="{{bgImgSrc}}"></goBack>
+
+	<view class="container">
+		<view class="title">
+			<view class="f-20">Knowledge Base</view>
+			<view class="">知识库 - 部门联络人</view>
+		</view>
+	</view>
+	<view class="infoBox">
+		<view class="imgBox">
+			<image class="infoImg" mode="widthFix" src="../../img/knowledge/k_link_1.png"></image>
+		</view>
+	</view>
+</view>

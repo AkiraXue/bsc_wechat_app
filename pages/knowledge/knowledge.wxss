@@ -1,0 +1,51 @@
+/* pages/knowledge/knowledge.wxss */
+@import "../../common/base.wxss";
+.knowledgeBox .swiperContainer {
+  padding: 0;
+  padding-bottom: 40rpx;
+}
+
+.swiperBox {
+  width: 100%;
+  margin-top: 50rpx;
+}
+
+.swiper-item {
+  position: relative;
+}
+
+.swiperImg{
+  border-radius: 12rpx;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.swiperTitle {
+  background: #ffffff;
+  height: 60rpx;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #000000;
+  font-size: 24rpx;
+  text-align: center;
+  line-height: 60rpx;
+  border-bottom-left-radius: 12rpx;
+  border-bottom-right-radius: 12rpx;
+}
+
+.knowledgeBox .menuBox {
+  border-bottom-width: 0;
+}
+
+.menuCon {
+  overflow: hidden;
+  margin-top: 30rpx;
+}
+
+.menuCon .menuItem {
+  float: left;
+  width: 30%;
+  margin-right: 30rpx;
+}

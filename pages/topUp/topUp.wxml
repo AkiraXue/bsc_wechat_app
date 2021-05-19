@@ -1,0 +1,55 @@
+<!--pages/toHeader/toHeader.wxml-->
+<view class="knowledgeBox myInfoBox">
+  <goBack></goBack>
+
+  <view class="searchBox">
+    <view class="searchCon">
+      <image class="searchIcon" mode="heightFix" src="../../img/Search@2x.png"></image>
+      <input class="searchInput" placeholder="search"/>
+    </view>
+  </view>
+
+  <view class="container swiperContainer">
+    <view class="title">
+      <view class="f-20">Top up</view>
+      <view>冲顶兑换</view>
+    </view>
+    <view class="swiperBox">
+      <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height:{{imgheights[current]}}rpx;" bindchange="bindchange"  catchtap="toPage">
+        <block wx:for="{{swiperList}}" wx:key="*this">
+          <swiper-item>
+            <view class="swiper-item">
+              <image class="swiperImg" mode="widthFix" src="{{item.img}}" data-id='{{index}}' bindload="imageLoad" data-link="{{item.link}}"></image>
+              <view class="swiperTitle">{{item.title}}</view>
+            </view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+  <view class="container menuBox">
+    <view class="title">
+      <view class="f-20">Charts</view>
+      <view class="">排行榜</view>
+    </view>
+    <view class="rankList">
+      <view class="rankItem" wx:for="{{rankList}}" wx:key="*this">
+        <view class="imgBox">
+          <image class="portrait" mode="heightFix" src="{{item.portrait}}"></image>
+        </view>
+        <view class="rankInfo">
+          <view class="title">{{item.title}}</view>
+          <view class="subTitle">{{item.subTitle}}</view>
+        </view>
+        <view class="chartIcon">
+          <image class="icon" mode="heightFix" src="../../img/topUp/Stats@2x.png"></image>
+        </view>
+        <view class="arrowBox">
+          <view class="arrowTxt">Follow</view>
+          <image class="icon" mode="heightFix" src="../../img/topUp/add@2x.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "发展历程",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "goBack": "../../components/goBack/goBack"
+  }
+}

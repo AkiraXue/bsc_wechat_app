@@ -1,0 +1,120 @@
+/* pages/my/my.wxss */
+page {
+  background-color: #252D46;
+}
+.myBox {
+  width: 100%;
+}
+
+.bgImg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.myContainer {
+  position: relative;
+  width: 100%;
+}
+
+.myContainer .myBg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.myContainer .myInfoBox {
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  width: 100%;
+}
+
+.myInfoBox .myInfo {
+  padding: 40rpx 0;
+  margin: 0 40rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+}
+
+.myInfoBox .myInfo .portraitBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+}
+
+.myInfoBox .portrait {
+  width: 80rpx;
+  height: auto;
+  display: block;
+  margin-right: 30rpx;
+}
+
+.myInfoBox .baseBox {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  font-size: 26rpx;
+  
+}
+.myInfoBox .baseBox > view {
+  line-height: 40rpx;
+  height: 40rpx;
+  display: block;
+  color: #ffffff;
+}
+.myInfoBox .baseBox .baseDate {
+  opacity: 0.6;
+}
+
+.myInfoBox .pointsBox {
+  background: #7E00FF;
+  height: 60rpx;
+  line-break: 60rpx;
+  border-radius: 60rpx;
+  min-width: 160rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.myInfoBox .pointsBox .icon {
+  height: 40rpx;
+  display: block;
+  margin-right: 10rpx;
+}
+.myInfoBox .pointsBox .points {
+  color: #ffffff;
+  font-size: 28rpx;
+}
+
+.myInfoBox .giftsBox {
+  margin: 0 40rpx;
+  padding: 40rpx 0;
+}
+
+.myInfoBox .giftsBox .title {
+  color: #ffffff;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  margin-bottom: 20rpx;
+}
+
+.myInfoBox .giftsBox .gifts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  width: 103%;
+}
+
+.myInfoBox .giftsBox .gifts .giftImg {
+  width: 30%;
+  margin-right: 3%;
+  margin-bottom: 20rpx;
+  box-shadow: 0 10rpx 16rpx rgba(141, 93, 249, 0.1);
+}

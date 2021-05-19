@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "企业文化",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "goBack": "../../components/goBack/goBack"
+  }
+}

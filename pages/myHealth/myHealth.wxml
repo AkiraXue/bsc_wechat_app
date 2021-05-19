@@ -1,0 +1,29 @@
+<!--pages/myHealth/myHealth.wxml-->
+<view class="myInfoBox myHealthBox">
+	<goBack imgsrc="{{bgImgSrc}}"></goBack>
+
+	<view class="container">
+		<view class="title">
+			<view class="f-20">Gift</view>
+			<view class="">我的健康</view>
+		</view>
+	</view>
+	<view class="infoBox">
+		<view class="textBox">
+			<view class="text">我们不仅关注病患的生活质量，也关心员工的身心健康。健康是精彩人生的基础，年度体检，防护用品，健身计划，补充医疗保险计划……让员工在工作生活之余，享受360°全方位的关怀保障。</view>
+		</view>
+		<view class="imgBox">
+			<image class="infoImg" mode="widthFix" src="../../img/my/myHealth_1.png"></image>
+		</view>
+		<view class="imgBox">
+			<image class="infoImg" mode="widthFix" src="../../img/my/myHealth_2.png"></image>
+		</view>
+		<view class="imgBox">
+			<image class="infoImg" mode="widthFix" src="../../img/my/myHealth_3.png"></image>
+		</view>
+		<view class="imgBox">
+			<image class="infoImg" mode="widthFix" src="../../img/my/myHealth_4.png"></image>
+		</view>
+	</view>
+	
+</view>

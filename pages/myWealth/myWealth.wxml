@@ -1,0 +1,19 @@
+<!--pages/myWealth/myWealth.wxml-->
+<view class="myInfoBox">
+	<goBack imgsrc="{{bgImgSrc}}"></goBack>
+
+	<view class="container">
+		<view class="title">
+			<view class="f-20">Gift</view>
+			<view class="">我的财富</view>
+		</view>
+	</view>
+	<view class="infoBox">
+		<view class="textBox">
+			<view class="text">财富是通过不断的投资与累计，成就安逸未来。共襄财富计划2.0和全球员工优惠购股计划，让大家的财富增益，获得更加安心的保障。</view>
+		</view>
+		<view class="imgBox">
+			<image class="infoImg" mode="widthFix" src="../../img/my/myWealth_1.png"></image>
+		</view>
+	</view>
+</view>

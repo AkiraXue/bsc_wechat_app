@@ -1,0 +1,20 @@
+<!--pages/kProduct/kProduct.wxml-->
+<view class="myInfoBox">
+	<goBack imgsrc="{{bgImgSrc}}"></goBack>
+
+	<view class="container">
+		<view class="title">
+			<view class="f-20">Profile</view>
+			<view class="">公司简介 - 产品简介</view>
+		</view>
+	</view>
+	<view class="infoBox">
+		<view class="imgBox">
+			<image class="infoImg" mode="widthFix" src="../../img/knowledge/k_product_1.png"></image>
+    </view>
+    <view class="imgBox">
+			<image class="infoImg" mode="widthFix" src="../../img/knowledge/k_product_2.png"></image>
+		</view>
+	</view>
+</view>
+

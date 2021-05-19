@@ -1,0 +1,32 @@
+<!--pages/myLife/myLife.wxml-->
+<view class="myInfoBox myLifeBox">
+	<goBack imgsrc="{{bgImgSrc}}"></goBack>
+
+	<view class="container">
+		<view class="title">
+			<view class="f-20">Gift</view>
+			<view class="">我的生活</view>
+		</view>
+	</view>
+	<view class="infoBox">
+		<view class="textBox">
+			<view class="text">公司为每位员工提供多种带薪假期，让员工生活无忧，包括：带薪年假，带薪病假，家属护理假，婚假，产假，陪产假等。</view>
+		</view>
+		<view class="imgBox">
+			<image class="infoImg" mode="widthFix" src="../../img/my/myLife_1.png"></image>
+		</view>
+		<view class="imgBox">
+			<image class="infoImg" mode="widthFix" src="../../img/my/myLife_2.png"></image>
+		</view>
+		<view class="imgBox">
+			<image class="infoImg" mode="widthFix" src="../../img/my/myLife_3.png"></image>
+		</view>
+		<view class="imgBox">
+			<image class="infoImg" mode="widthFix" src="../../img/my/myLife_4.png"></image>
+		</view>
+		<view class="imgBox">
+			<image class="infoImg" mode="widthFix" src="../../img/my/myLife_5.png"></image>
+		</view>
+	</view>
+</view>
+

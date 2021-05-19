@@ -1,0 +1,2 @@
+/* pages/myWealth/myWealth.wxss */
+@import "../../common/base.wxss";

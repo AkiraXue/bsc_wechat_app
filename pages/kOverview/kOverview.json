@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "企业概览",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "goBack": "../../components/goBack/goBack"
+  }
+}

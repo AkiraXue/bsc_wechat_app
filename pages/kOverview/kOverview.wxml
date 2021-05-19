@@ -1,0 +1,54 @@
+<!--pages/kOverview/kOverview.wxml-->
+<view class="myInfoBox">
+	<goBack imgsrc="{{bgImgSrc}}"></goBack>
+
+	<view class="container">
+		<view class="title">
+			<view class="f-20">Profile</view>
+			<view class="">公司简介 - 企业概览</view>
+		</view>
+	</view>
+	<view class="infoBox">
+    <view class="toggleTextBox">
+      <view class="toggleTitle" data-index="0" bindtap="onToggle">
+        <view class="title">关于波士顿科学</view>
+        <image class="toggleArrow" mode="heightFix" src="{{toggleList[0] == 0 ? toggleArrow : toggleUpArrow}}"></image>
+      </view>
+      <view class="toggleCon {{toggleList[0] == 0 ? 'hidden' : ''}}">
+				<view class="textCon con">简单来说，我们是一家医疗科技公司；复杂一点来说，我们是一家专注于微创介入、极具创新活力、全球性的医疗科技公司，希望通过创新的微创介入解决方案，改善人们的生活质量，提升全世界患者的健康品质。</view>
+			</view>
+    </view>
+		<view class="imgBox">
+			<image class="infoImg" mode="widthFix" src="../../img/knowledge/k_overview_1.png"></image>
+		</view>
+
+		<view class="toggleTextBox">
+      <view class="toggleTitle" data-index="1" bindtap="onToggle">
+        <view class="title">我们到底是做什么的？</view>
+        <image class="toggleArrow" mode="heightFix" src="{{toggleList[1] == 0 ? toggleArrow : toggleUpArrow}}"></image>
+      </view>
+      <view class="toggleCon {{toggleList[1] == 0 ? 'hidden' : ''}}">
+        <view class="textCon con">作为一家有着浓厚创新氛围的公司，我们共拥有13000多件改善生命的产品，聚焦于心脏介入、结构性心脏病、心脏节律管理和电生理、外周及肿瘤介入、内窥镜介入、泌尿及盆底健康、呼吸介入等多个领域，这些产品、技术或解决方案累计获得21000项授权专利。</view>
+        <view class="textCon con">每年，全球采用我们的产品治疗的患者人数约3000万，也就是每250人中就有一个人使用过我们的产品。借助这些产品和解决方案，我们帮助这些患者活得更健康、更长寿。</view>
+        <view class="textCon con">让人兴奋和激动的是，2013年至今，我们共有6款产品或技术斩获“盖伦奖”或提名。（盖伦奖被公认为制药和生物医疗行业的最高荣誉，被誉为“医药界的诺贝尔奖”）</view>
+			</view>
+    </view>
+		<view class="imgBox">
+			<image class="infoImg" mode="widthFix" src="../../img/knowledge/k_overview_2.png"></image>
+		</view>
+		
+		<view class="toggleTextBox">
+      <view class="toggleTitle" data-index="2" bindtap="onToggle">
+        <view class="title">改善全世界人的生命质量</view>
+        <image class="toggleArrow" mode="heightFix" src="{{toggleList[2] == 0 ? toggleArrow : toggleUpArrow}}"></image>
+      </view>
+      <view class="toggleCon {{toggleList[2] == 0 ? 'hidden' : ''}}">
+				<view class="textCon con">目前，波士顿科学全球共3.6万名员工服务于179个机构，其中包括38个分布在世界各地的主要制造中心，业务遍及大约120个国家，在华员工1300名。总部位于上海，第二总部位于2020年全新落座成都，同时在北京，广州，香港和台湾也分别有办公处。</view>
+			</view>
+    </view>
+		<view class="imgBox">
+			<image class="infoImg" mode="widthFix" src="../../img/knowledge/k_overview_3.png"></image>
+		</view>
+	</view>
+</view>
+
