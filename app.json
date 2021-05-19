@@ -31,7 +31,7 @@
     "list": [
       {
         "text": "冲顶",
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/topUp/topUp",
         "iconPath": "/img/tabBar/icon_0@2x.png",
         "selectedIconPath": "/img/tabBar/icon_0_a@2x.png"
       },
